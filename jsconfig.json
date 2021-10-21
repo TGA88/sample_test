@@ -4,7 +4,8 @@
         "paths": {
             "@app/*":["src/app/*"],
             "@pages/*":["src/pages/*"],
-            "@features/*":["src/features/*"]
+            "@features/*":["src/features/*"],
+            "@common/*":["src/common/*"]
         }
     }
 }

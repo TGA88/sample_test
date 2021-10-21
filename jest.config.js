@@ -26,6 +26,9 @@ module.exports = {
 
         /* Map Alias path for src/pages*/
         "^@pages(.*)$": "<rootDir>/src/pages/$1",
+
+         /* Map Alias path for src/common*/
+         "^@common(.*)$": "<rootDir>/src/common/$1",
     },
     testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
     testEnvironment: 'jsdom',
